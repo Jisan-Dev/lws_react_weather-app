@@ -56,7 +56,7 @@ export default function Page() {
           className="grid place-items-center h-screen bg-no-repeat bg-cover">
           <Header />
           <main>
-            <section>
+            <section className="mt-6">
               <WeatherBoard />
             </section>
           </main>
