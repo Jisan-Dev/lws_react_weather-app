@@ -4,7 +4,7 @@ import Search from "./Search";
 
 export default function Header() {
   return (
-    <header className="fixed w-full top-0 bg-gradient-to-b from-black/60 to-black/0 pb-10">
+    <header className="fixed z-10 w-full top-0 bg-gradient-to-b from-black/60 to-black/0">
       <nav className="container flex items-center justify-between py-6">
         <Logo />
 
