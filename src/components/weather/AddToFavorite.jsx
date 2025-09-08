@@ -29,11 +29,7 @@ export default function AddToFavorite() {
           className="text-sm md:text-base inline-flex items-center space-x-2 px-3 py-1.5 rounded-md bg-[#C5C5C54D] cursor-pointer"
           onClick={handleFavorite}>
           <span>Add to Favorites</span>
-          <img
-            src={isFavorite ? RedHeartIcon : HeartIcon}
-            // src={HeartIcon}
-            alt="heart"
-          />
+          <img src={isFavorite ? RedHeartIcon : HeartIcon} alt="heart" />
         </button>
       </div>
     </div>
